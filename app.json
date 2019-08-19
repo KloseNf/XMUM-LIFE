@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/me/me",
+    "pages/history/history",
+    "pages/home/home",
+    "pages/category/category",
+    "pages/publish/publish",
+    "pages/notification/notification",
+    "pages/myinfo/myinfo",
+    "pages/shoppingcart/shoppingcart",
+    "pages/favorite/favorite",
+    "pages/published/published",
+    "pages/sold/sold"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "XMUM LIFE",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "Home",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/homeSelected.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "Category",
+        "iconPath": "/images/category.png",
+        "selectedIconPath": "/images/categorySelected.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "Publish",
+        "iconPath": "/images/publish.png",
+        "selectedIconPath": "/images/publishSelected.png"
+      },
+      {
+        "pagePath": "pages/notification/notification",
+        "text": "Notification",
+        "iconPath": "/images/notification.png",
+        "selectedIconPath": "/images/notificationSelected.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "Me",
+        "iconPath": "/images/me.png",
+        "selectedIconPath": "/images/meSelected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

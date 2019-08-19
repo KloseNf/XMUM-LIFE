@@ -1,0 +1,38 @@
+<!--pages/me/me.wxml-->
+<view class="headpart">
+  <image class="mebackground" src="/images/mebackground.png" mode="aspectFill"></image>
+  <view class="meavara">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view class="menickname">
+    <open-data type="userNickName"></open-data>
+  </view>
+</view>
+
+<scroll-view class="operationlist" scroll-y="true" style="height:65%;">
+  <button class="myinfo" open-type='openSetting' bindtap="gotomyinfo">
+    <image class="btnmyinfo" src="/images/btnmyinfo.png"></image>
+    <view>My Information</view>
+  </button>
+  <button class="shoppingcart" open-type='openSetting' bindtap="gotoshoppingcart">
+    <image class="btnshoppingcart" src="/images/btnshoppingcart.png"></image>
+    <view>Shopping Cart</view>
+  </button>
+  <button class="favorite" open-type='openSetting' bindtap="gotofavorite">
+    <image class="btnfavorite" src="/images/btnfavorite.png"></image>
+    <view>My Favorite</view>
+  </button>
+  <button class="published" open-type='openSetting' bindtap="gotopublished">
+    <image class="btnpublished" src="/images/btnpublished.png"></image>
+    <view>My Published</view>
+  </button>
+  <button class="sold" open-type='openSetting' bindtap="gotosold">
+    <image class="btnsold" src="/images/btnsold.png"></image>
+    <view>Item Sold</view>
+  </button>
+  <button class="history" open-type='openSetting' bindtap="gotohistory">
+    <image class="btnhistory" src="/images/btnhistory.png"></image>
+    <view>Shopping History</view>
+  </button>
+</scroll-view>
+

@@ -1,0 +1,113 @@
+/* pages/myinfo/myinfo.wxss */
+page{
+  height: 100%;
+}
+
+.headpart {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.myinfobackground {
+  width: 100%;
+  height: 35%;
+  position:fixed; 
+  z-index: -1;
+}
+
+.myinfoavara {
+  width: 150rpx;
+  height: 150rpx;
+  overflow:hidden;  
+  display: block;      
+  border-radius: 50%;
+}
+
+.myinfonickname {
+  margin-top: 10px;
+}
+
+.inputusername {
+  width: 95%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 2.5%;
+  background-color: gainsboro;
+  color: black;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.textusername {
+  width: 90%;
+  margin-left: 10%;
+}
+.inputusername::after {
+  border-radius: 50rpx;
+  border: 0;
+}
+
+.inputaddress {
+  width: 95%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 2.5%;
+  background-color: gainsboro;
+  color: black;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.textaddress {
+  width: 90%;
+  margin-left: 10%;
+}
+.inputaddress::after {
+  border-radius: 50rpx;
+  border: 0;
+}
+
+.inputcontact {
+  width: 95%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 2.5%;
+  background-color: gainsboro;
+  color: black;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.textcontact {
+  width: 90%;
+  margin-left: 10%;
+}
+.inputcontact::after {
+  border-radius: 50rpx;
+  border: 0;
+}
+
+.myinfosave {
+  width: 40%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 30%;
+  background-color: burlywood;
+  color: white;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.myinfosave::after {
+  border-radius: 50rpx;
+  border: 0;
+}

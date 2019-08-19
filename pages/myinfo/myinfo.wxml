@@ -1,0 +1,25 @@
+<!--pages/myinfo/myinfo.wxml-->
+<view class="headpart">
+  <image class="myinfobackground" src="/images/mebackground.png" mode="aspectFill"></image>
+  <view class="myinfoavara">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view class="myinfonickname">
+    <open-data type="userNickName"></open-data>
+  </view>
+</view>
+
+<scroll-view class="infolist">
+  <view class="inputusername">
+    <input class="textusername" name="username" placeholder="Username"></input>
+  </view>
+  <view class="inputaddress">
+    <input class="textaddress" name="address" placeholder="Address"></input>
+  </view>
+  <view class="inputcontact">
+    <input class="textcontact" name="contact" placeholder="Contact"></input>
+  </view>
+  <view>
+    <button class="myinfosave">Save</button>
+  </view>
+</scroll-view>

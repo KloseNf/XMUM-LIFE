@@ -1,0 +1,171 @@
+/* pages/me/me.wxss */
+page{
+  height: 100%;
+}
+
+.headpart {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mebackground {
+  width: 100%;
+  height: 35%;
+  position:fixed; 
+  z-index: -1;
+}
+
+.meavara {
+  width: 150rpx;
+  height: 150rpx;
+  overflow:hidden;  
+  display: block;      
+  border-radius: 50%;
+}
+
+.menickname {
+  margin-top: 10px;
+}
+
+.myinfo {
+  width: 95%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 2.5%;
+  background-color: burlywood;
+  color: white;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btnmyinfo {
+  margin-left: 55rpx;
+  margin-right: 40rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.myinfo::after {
+  border-radius: 50rpx;
+  border: 0; 
+}
+
+.shoppingcart {
+  width: 95%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 2.5%;
+  background-color: burlywood;
+  color: white;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btnshoppingcart {
+  margin-left: 55rpx;
+  margin-right: 40rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.shoppingcart::after {
+  border-radius: 50rpx;
+  border: 0; 
+}
+
+.favorite {
+  width: 95%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 2.5%;
+  background-color: burlywood;
+  color: white;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btnfavorite {
+  margin-left: 55rpx;
+  margin-right: 40rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.favorite::after {
+  border-radius: 50rpx;
+  border: 0; 
+}
+
+.published {
+  width: 95%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 2.5%;
+  background-color: burlywood;
+  color: white;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btnpublished {
+  margin-left: 55rpx;
+  margin-right: 40rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.published::after {
+  border-radius: 50rpx;
+  border: 0; 
+}
+
+.sold {
+  width: 95%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 2.5%;
+  background-color: burlywood;
+  color: white;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btnsold {
+  margin-left: 55rpx;
+  margin-right: 40rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.sold::after {
+  border-radius: 50rpx;
+  border: 0; 
+}
+
+.history {
+  width: 95%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  margin-left: 2.5%;
+  background-color: burlywood;
+  color: white;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btnhistory {
+  margin-left: 55rpx;
+  margin-right: 40rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.history::after {
+  border-radius: 50rpx;
+  border: 0; 
+}
