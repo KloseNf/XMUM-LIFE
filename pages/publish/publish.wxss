@@ -1,1 +1,121 @@
 /* pages/publish/publish.wxss */
+.addpicture {
+  width: 60%;
+  height: 150px;
+  margin-top: 20px;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.Imgaddpicture {
+  width: 150px;
+  height: 150px;
+}
+
+.addpicture::after {
+  border: none;
+}
+
+.inputitemname {
+  width: 95%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 2.5%;
+  background-color: gainsboro;
+  color: black;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.textitemname {
+  width: 90%;
+  margin-left: 10%;
+}
+.inputitemname::after {
+  border-radius: 50rpx;
+  border: 0;
+}
+
+.inputitemprice {
+  width: 95%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 2.5%;
+  background-color: gainsboro;
+  color: black;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.textitemprice {
+  width: 90%;
+  margin-left: 10%;
+}
+.inputitemprice::after {
+  border-radius: 50rpx;
+  border: 0;
+}
+
+.inputdescription {
+  width: 95%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 2.5%;
+  background-color: gainsboro;
+  color: black;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.textdescription {
+  width: 90%;
+  margin-left: 10%;
+}
+.inputdescription::after {
+  border-radius: 50rpx;
+  border: 0;
+}
+
+.choosecategries {
+  width: 95%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 2.5%;
+  background-color: gainsboro;
+  color: black;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.textcategries {
+  width: 90%;
+  margin-left: 10%;
+}
+.choosecategries::after {
+  border-radius: 50rpx;
+  border: 0;
+}
+
+.btnpublish {
+  width: 40%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 30%;
+  background-color: burlywood;
+  color: white;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.btnpublish::after {
+  border-radius: 50rpx;
+  border: 0;
+}
