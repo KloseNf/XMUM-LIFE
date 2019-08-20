@@ -1,6 +1,7 @@
 <!--pages/me/me.wxml-->
+<!-- head -->
 <view class="headpart">
-  <image class="mebackground" src="/images/mebackground.png" mode="aspectFill"></image>
+  <image class="mebackground" src="/images/me/mebackground.png" mode="aspectFill"></image>
   <view class="meavara">
     <open-data type="userAvatarUrl"></open-data>
   </view>
@@ -9,30 +10,30 @@
   </view>
 </view>
 
+<!-- scroll list -->
 <scroll-view class="operationlist" scroll-y="true" style="height:65%;">
   <button class="myinfo" open-type='openSetting' bindtap="gotomyinfo">
-    <image class="btnmyinfo" src="/images/btnmyinfo.png"></image>
+    <image class="btnmyinfo" src="/images/me/btnmyinfo.png"></image>
     <view>My Information</view>
   </button>
   <button class="shoppingcart" open-type='openSetting' bindtap="gotoshoppingcart">
-    <image class="btnshoppingcart" src="/images/btnshoppingcart.png"></image>
+    <image class="btnshoppingcart" src="/images/me/btnshoppingcart.png"></image>
     <view>Shopping Cart</view>
   </button>
   <button class="favorite" open-type='openSetting' bindtap="gotofavorite">
-    <image class="btnfavorite" src="/images/btnfavorite.png"></image>
+    <image class="btnfavorite" src="/images/me/btnfavorite.png"></image>
     <view>My Favorite</view>
   </button>
   <button class="published" open-type='openSetting' bindtap="gotopublished">
-    <image class="btnpublished" src="/images/btnpublished.png"></image>
+    <image class="btnpublished" src="/images/me/btnpublished.png"></image>
     <view>My Published</view>
   </button>
   <button class="sold" open-type='openSetting' bindtap="gotosold">
-    <image class="btnsold" src="/images/btnsold.png"></image>
+    <image class="btnsold" src="/images/me/btnsold.png"></image>
     <view>Item Sold</view>
   </button>
   <button class="history" open-type='openSetting' bindtap="gotohistory">
-    <image class="btnhistory" src="/images/btnhistory.png"></image>
+    <image class="btnhistory" src="/images/me/btnhistory.png"></image>
     <view>Shopping History</view>
   </button>
 </scroll-view>
-

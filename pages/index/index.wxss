@@ -1,9 +1,12 @@
 /**pages/index/index.wxss**/
+
 .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+/* user avatar and nickname */
 
 .userinfo-avatar {
   width: 150rpx;
@@ -16,6 +19,8 @@
   color: #aaa;
 }
 
+/* motto */
+
 .usermotto {
   margin-top: 50px;
 }
@@ -24,6 +29,8 @@
   margin-top: 75px;
   font-size: 32rpx;
 }
+
+/* button go to home */
 
 .btnstart {
   width: 400rpx;
@@ -45,5 +52,5 @@
 
 .btnstart::after {
   border-radius: 50rpx;
-  border: 0; 
+  border: 0;
 }

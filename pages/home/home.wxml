@@ -1,7 +1,50 @@
 <!--pages/home/home.wxml-->
-<view>
-  home
+<!-- search -->
+<view class="search">
+  <input class="textsearch" name="searchword" placeholder="Search items here"></input>
+  <button class="btnsearch">
+    <image class="Imgsearch" src='/images/home/btnsearch.png'></image>
+  </button>
 </view>
-<view>
 
+<!-- menu -->
+<view class="menulist">
+  <!-- menu first line -->
+  <view class="menufirstline">
+    <button class="menufood">
+      <image class="Imgmenufood" src="/images/home/menufood.png"></image>
+      <text class="textmenufood">Food</text>
+    </button>
+    <button class="menucloth">
+      <image class="Imgmenucloth" src="/images/home/menucloth.png"></image>
+      <text class="textmenucloth">Cloth</text>
+    </button>
+    <button class="menucommonly">
+      <image class="Imgmenucommonly" src="/images/home/menucommonly.png"></image>
+      <text class="textmenucommonly">Commonly</text>
+    </button>
+    <button class="menucosmetic">
+      <image class="Imgmenucosmetic" src="/images/home/menucosmetic.png"></image>
+      <text class="textmenucosmetic">Cosmetic</text>
+    </button>
+  </view>
+  <!-- menu second line -->
+  <view class="menusecondline">
+    <button class="menudigital">
+      <image class="Imgmenudigital" src="/images/home/menudigital.png"></image>
+      <text class="textmenudigital">Digital</text>
+    </button>
+    <button class="menujewelry">
+      <image class="Imgmenujewelry" src="/images/home/menujewelry.png"></image>
+      <text class="textmenujewelry">Jewelry</text>
+    </button>
+    <button class="menudrug">
+      <image class="Imgmenudrug" src="/images/home/menudrug.png"></image>
+      <text class="textmenudrug">Drug</text>
+    </button>
+    <button class="menubook">
+      <image class="Imgmenubook" src="/images/home/menubook.png"></image>
+      <text class="textmenubook">Book</text>
+    </button>
+  </view>
 </view>
