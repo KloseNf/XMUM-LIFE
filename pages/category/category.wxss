@@ -1,1 +1,80 @@
 /* pages/category/category.wxss */
+
+.tab-h {
+  height: 80rpx;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  line-height: 80rpx;
+  background: #f7f7f7;
+  font-size: 16px;
+  white-space: nowrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.tab-item {
+  width: 130rpx;
+  margin: 0 25rpx;
+  display: inline-block;
+  font-size: 25rpx;
+}
+
+.tab-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-item.active {
+  color: burlywood;
+  position: relative;
+}
+
+.tab-item.active:after {
+  content: "";
+  display: block;
+  height: 10rpx;
+  width: 130rpx;
+  background: burlywood;
+  position: absolute;
+  bottom: 0;
+  border-radius: 15rpx;
+}
+
+.tab-content {
+  margin-top: 80rpx;
+}
+
+/* edit this class when edit data */
+
+.item-ans {
+  width: 100%;
+  display: flex;
+  flex-grow: row no-wrap;
+  justify-content: space-between;
+  padding: 30rpx;
+  box-sizing: border-box;
+  height: 180rpx;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.scoll-h {
+  height: 100%;
+}
+
+/* 
+.swiper {
+  height: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-top: 1000rpx; 
+}
+swiper-item view.item-ans {
+  height: 100%;
+  overflow-y: scroll;
+} */

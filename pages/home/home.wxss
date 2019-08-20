@@ -1,1 +1,256 @@
 /* pages/home/home.wxss */
+
+/* search */
+
+.search {
+  width: 95%;
+  height: 75rpx;
+  margin-top: 30rpx;
+  margin-left: 2.5%;
+  background-color: gainsboro;
+  color: black;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.textsearch {
+  width: 95%;
+  margin-left: 10%;
+  font-size: 30rpx;
+}
+
+.search::after {
+  border-radius: 50rpx;
+  border: 0;
+}
+
+.btnsearch {
+  width: 130rpx;
+  height: 70rpx;
+  display: flex;
+  margin-right: 2.5%;
+  background-color: gainsboro;
+  align-items: center;
+  justify-content: center;
+}
+
+.Imgsearch {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.btnsearch::after {
+  border: none;
+}
+
+/* menu */
+
+/* menu firstline */
+
+.menufirstline {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30rpx;
+  margin-left: 2.5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.menufood {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.Imgmenufood {
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 10px;
+}
+
+.textmenufood {
+  font-size: 20rpx;
+}
+
+.menufood::after {
+  border: none;
+}
+
+.menucloth {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.Imgmenucloth {
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 10px;
+}
+
+.textmenucloth {
+  font-size: 20rpx;
+}
+
+.menucloth::after {
+  border: none;
+}
+
+.menucommonly {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.Imgmenucommonly {
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 10px;
+}
+
+.textmenucommonly {
+  font-size: 20rpx;
+}
+
+.menucommonly::after {
+  border: none;
+}
+
+.menucosmetic {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.Imgmenucosmetic {
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 10px;
+}
+
+.textmenucosmetic {
+  font-size: 20rpx;
+}
+
+.menucosmetic::after {
+  border: none;
+}
+
+/* menu secondline */
+
+.menusecondline {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30rpx;
+  margin-left: 2.5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.menudigital {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.Imgmenudigital {
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 10px;
+}
+
+.textmenudigital {
+  font-size: 20rpx;
+}
+
+.menudigital::after {
+  border: none;
+}
+
+.menujewelry {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.Imgmenujewelry {
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 10px;
+}
+
+.textmenujewelry {
+  font-size: 20rpx;
+}
+
+.menujewelry::after {
+  border: none;
+}
+
+.menudrug {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.Imgmenudrug {
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 10px;
+}
+
+.textmenudrug {
+  font-size: 20rpx;
+}
+
+.menudrug::after {
+  border: none;
+}
+
+.menubook {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.Imgmenubook {
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 10px;
+}
+
+.textmenubook {
+  font-size: 20rpx;
+}
+
+.menubook::after {
+  border: none;
+}

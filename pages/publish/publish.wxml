@@ -1,10 +1,12 @@
 <!--pages/publish/publish.wxml-->
+<!-- add picture button -->
 <view>
   <button class="addpicture">
-    <image class="Imgaddpicture" src='/images/addpicture.png'></image>
+    <image class="Imgaddpicture" src='/images/publish/addpicture.png'></image>
   </button>
 </view>
 
+<!-- scroll input list -->
 <scroll-view class="iteminfolist">
   <view class="inputitemname">
     <input class="textitemname" name="itemname" placeholder="Item name"></input>
@@ -15,9 +17,13 @@
   <view class="inputdescription">
     <input class="textdescription" name="description" placeholder="Item description"></input>
   </view>
+
+  <!----------------------- choose categries (need edit) ----------------------->
   <view class="choosecategries">
     <text class="textcategries">Categries</text>
   </view>
+
+  <!-- publish button -->
   <view>
     <button class="btnpublish">Publish</button>
   </view>

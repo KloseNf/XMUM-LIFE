@@ -1,66 +1,142 @@
-// pages/category/category.js
+var app = getApp();
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    winHeight: "", //window height
+    currentTab: 0, //preset value
+    scrollLeft: 0, //tab initial position
+    expertList: [{
+      // reference from database
+    }]
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
+  //switch the tab
+  switchTab: function(e) {
+    console.log(e.detail)
+    //e.detail.current
+    //which tab now
+    switch (e.detail.current) {
+      //Food
+      case 0:
+        this.setData({
+          currentTab: e.detail.current,
+          expertList: [{
+            //reference from database
+          }]
+        });
+        break;
 
+        //Cloth
+      case 1:
+        this.setData({
+          currentTab: e.detail.current,
+          expertList: [{
+            //reference from database
+          }]
+        });
+        break;
+
+        //Commonly
+      case 2:
+        this.setData({
+          currentTab: e.detail.current,
+          expertList: [{
+            //reference from database
+          }]
+        });
+        break;
+
+        //Cosmetic
+      case 3:
+        this.setData({
+          currentTab: e.detail.current,
+          expertList: [{
+            //reference from database
+          }]
+        });
+        break;
+
+        //Digital
+      case 4:
+        this.setData({
+          currentTab: e.detail.current,
+          expertList: [{
+            //reference from database
+          }]
+        });
+        break;
+
+        //Jewelry
+      case 5:
+        this.setData({
+          currentTab: e.detail.current,
+          expertList: [{
+            //reference from database
+          }]
+        });
+        break;
+
+        //Drug
+      case 6:
+        this.setData({
+          currentTab: e.detail.current,
+          expertList: [{
+            //reference from database
+          }]
+        });
+        break;
+
+        //Book
+      case 7:
+        this.setData({
+          currentTab: e.detail.current,
+          expertList: [{
+            //reference from database
+          }]
+        });
+        break;
+    }
+    this.checkCor();
   },
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  //change the tab by click
+  swichNav: function(e) {
+    var cur = e.target.dataset.current;
+    if (this.data.currentTaB == cur) {
+      return false;
+    } else {
+      this.setData({
+        currentTab: cur
+      })
+    }
   },
 
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  //tabs scroll automatically
+  checkCor: function() {
+    if (this.data.currentTab > 4) {
+      this.setData({
+        scrollLeft: 300
+      })
+    } else {
+      this.setData({
+        scrollLeft: 0
+      })
+    }
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  onLoad: function() {
+    var that = this;
+    //automatic height adaptation
+    wx.getSystemInfo({
+      success: function(res) {
+        var clientHeight = res.windowHeight,
+          clientWidth = res.windowWidth,
+          rpxR = 750 / clientWidth;
+        var calc = clientHeight * rpxR - 100;
+        console.log(calc)
+        that.setData({
+          winHeight: calc
+        });
+      }
+    });
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
+  footerTap: app.footerTap
 })

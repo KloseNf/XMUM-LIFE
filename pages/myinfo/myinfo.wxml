@@ -1,4 +1,5 @@
 <!--pages/myinfo/myinfo.wxml-->
+<!-- head -->
 <view class="headpart">
   <image class="myinfobackground" src="/images/mebackground.png" mode="aspectFill"></image>
   <view class="myinfoavara">
@@ -9,6 +10,7 @@
   </view>
 </view>
 
+<!-- input table list -->
 <scroll-view class="infolist">
   <view class="inputusername">
     <input class="textusername" name="username" placeholder="Username"></input>
@@ -19,6 +21,8 @@
   <view class="inputcontact">
     <input class="textcontact" name="contact" placeholder="Contact"></input>
   </view>
+
+  <!-- save button -->
   <view>
     <button class="myinfosave">Save</button>
   </view>

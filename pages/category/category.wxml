@@ -1,2 +1,43 @@
 <!--pages/category/category.wxml-->
-<text>category</text>
+<view>
+  <!-- scroll tab list -->
+  <scroll-view scroll-x="true" class="tab-h" scroll-left="{{scrollLeft}}">
+    <view class="tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="swichNav">
+      <text class="tab-text {{currentTab==0?'active':''}}" data-current="0" bindtap="swichNav">Food</text>
+    </view>
+    <view class="tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="swichNav">
+      <text class="tab-text {{currentTab==0?'active':''}}" data-current="1" bindtap="swichNav">Cloth</text>
+    </view>
+    <view class="tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="swichNav">
+      <text class="tab-text {{currentTab==0?'active':''}}" data-current="2" bindtap="swichNav">Commonly</text>
+    </view>
+    <view class="tab-item {{currentTab==3?'active':''}}" data-current="3" bindtap="swichNav">
+      <text class="tab-text {{currentTab==0?'active':''}}" data-current="3" bindtap="swichNav">Cosmetic</text>
+    </view>
+    <view class="tab-item {{currentTab==4?'active':''}}" data-current="4" bindtap="swichNav">
+      <text class="tab-text {{currentTab==0?'active':''}}" data-current="4" bindtap="swichNav">Digital</text>
+    </view>
+    <view class="tab-item {{currentTab==5?'active':''}}" data-current="5" bindtap="swichNav">
+      <text class="tab-text {{currentTab==0?'active':''}}" data-current="5" bindtap="swichNav">Jewelry</text>
+    </view>
+    <view class="tab-item {{currentTab==6?'active':''}}" data-current="6" bindtap="swichNav">
+      <text class="tab-text {{currentTab==0?'active':''}}" data-current="6" bindtap="swichNav">Drug</text>
+    </view>
+    <view class="tab-item {{currentTab==7?'active':''}}" data-current="7" bindtap="swichNav">
+      <text class="tab-text {{currentTab==0?'active':''}}" data-current="7" bindtap="swichNav">Book</text>
+    </view>
+  </scroll-view>
+
+  <swiper class="tab-content" current="{{currentTab}}" duration="300" bindchange="switchTab" style="height:{{winHeight}}rpx">
+    <swiper-item wx:for="{{[0,1,2,3,4,5,6,7]}}">
+      <scroll-view scroll-y="true" class="scoll-h">
+        <block wx:for="{{expertList}}" wx:key="*this">
+          <!-- reference from .js -->
+          <view class="item-ans">
+            Hello world!
+          </view>
+        </block>
+      </scroll-view>
+    </swiper-item>
+  </swiper>
+</view>
